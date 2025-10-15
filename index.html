@@ -3,71 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Werkstatt KaffeeFix</title>
+  <title>Werkstatt KaffeeFix – Kaffeemaschinenservice Aachen</title>
+  <meta name="description" content="Reparatur und Wartung von Kaffeemaschinen in Aachen – KaffeeFix Werkstatt. Schnell, zuverlässig, mit Abholservice.">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f7f7f7;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f4f1ee;
       margin: 0;
-      padding: 0;
+      color: #333;
     }
     header {
-      background: #6f4e37;
+      background: linear-gradient(180deg, #6f4e37, #5a3e2d);
       color: white;
-      padding: 20px;
       text-align: center;
+      padding: 30px 15px;
     }
     header img {
-      max-width: 100%;
-      height: auto;
+      max-width: 120px;
       border-radius: 8px;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 1.8em;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 1em;
+      margin: 0;
     }
     section {
       padding: 20px;
       max-width: 800px;
       margin: auto;
     }
-    .service-info, .contact, form {
+    .card {
       background: #fff;
-      padding: 15px;
-      border-radius: 8px;
-      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 25px;
+    }
+    h2 {
+      margin-top: 0;
+      color: #6f4e37;
     }
     label {
       display: block;
       margin-top: 10px;
-      font-weight: bold;
+      font-weight: 600;
     }
     input, textarea {
       width: 100%;
-      padding: 8px;
+      padding: 10px;
       margin-top: 5px;
       border: 1px solid #ccc;
-      border-radius: 4px;
+      border-radius: 6px;
+      font-size: 1em;
     }
     button {
       margin-top: 15px;
-      padding: 10px 20px;
+      padding: 12px 25px;
       background: #6f4e37;
       color: white;
       border: none;
-      border-radius: 4px;
+      border-radius: 6px;
+      font-size: 1em;
       cursor: pointer;
+      transition: 0.2s;
+      width: 100%;
     }
     button:hover {
       background: #5a3e2d;
     }
     .contact a {
       text-decoration: none;
-      margin-right: 15px;
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
       margin-top: 8px;
+      color: #6f4e37;
+      font-weight: 600;
     }
     .contact img {
-      width: 24px;
-      vertical-align: middle;
-      margin-right: 5px;
+      width: 22px;
+      margin-right: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #777;
     }
   </style>
 </head>
@@ -76,50 +101,55 @@
 <header>
   <img src="https://copilot.microsoft.com/th/id/BCO.ceecac41-21de-47dd-a238-89e0e2bd2dc5.png" alt="Kaffeemaschinen Collage">
   <h1>Werkstatt KaffeeFix</h1>
-  <p>Kaffeemaschinenreparatur und -wartung in Aachen</p>
+  <p>Kaffeemaschinenreparatur & Wartung in Aachen</p>
 </header>
 
 <section>
-  <div class="service-info">
-    <h2>🛠️ Unser Service – Ihre Kaffeezufriedenheit</h2>
+  <div class="card">
+    <h2>🛠️ Unser Service</h2>
     <p>
-      Wir bieten technische Wartung von Kaffeemaschinen an – inklusive Reinigung von Kaffeeölen, Entkalkung, Schmierung,
-      Austausch von Dichtungen und Manschetten – sowie Reparaturen.  
-      Unser Prinzip: Wir holen Ihre Maschine bei Ihnen ab, führen die Wartung und Tests durch und liefern sie am nächsten Morgen zurück.
-      So genießen Sie Ihren Kaffee pünktlich zum Arbeitsbeginn.
+      Wir bieten fachgerechte Wartung und Reparatur von Kaffeemaschinen an – inkl. Reinigung von Kaffeeölen, 
+      Entkalkung, Schmierung, Austausch von Dichtungen und Tests.
+      <br><br>
+      <strong>Abholservice:</strong> Wir holen Ihre Maschine ab, führen die Wartung durch und liefern sie am nächsten Morgen zurück.
     </p>
   </div>
 
-  <div class="contact">
-    <h2>Kontaktinformationen</h2>
-    <p><strong>Email:</strong> bvvlkw@gmail.com</p>
+  <div class="card contact">
+    <h2>📞 Kontakt</h2>
+    <p><strong>Email:</strong> <a href="mailto:bvvlkw@gmail.com">bvvlkw@gmail.com</a></p>
     <p><strong>Adresse:</strong> Glatzer Str. 7, 52078 Aachen</p>
-    <p><strong>Anfragen bitte per:</strong></p>
+    <p><strong>Direkter Kontakt:</strong></p>
     <a href="https://wa.me/4915735574368" target="_blank">
       <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"> WhatsApp
-    </a>
+    </a><br>
     <a href="https://t.me/+4915735574368" target="_blank">
       <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram"> Telegram
-    </a>
+    </a><br>
+    <a href="tel:+4915735574368">📞 +49 1573 5574368</a>
   </div>
 
-  <form>
-    <h2>Auftragsformular</h2>
+  <form class="card" action="https://formspree.io/f/YOUR_ID_HERE" method="POST">
+    <h2>📋 Auftragsformular</h2>
     <label for="model">Kaffeemaschinenmodell</label>
-    <input type="text" id="model" name="model" placeholder="z. B. DeLonghi Magnifica">
+    <input type="text" id="model" name="Modell" placeholder="z. B. DeLonghi Magnifica" required>
 
     <label for="issue">Beschreibung des Fehlers oder des Wartungsbedarfs</label>
-    <textarea id="issue" name="issue" rows="4" placeholder="z. B. kein Wasser, Wartung nötig"></textarea>
+    <textarea id="issue" name="Beschreibung" rows="4" placeholder="z. B. kein Wasser, Wartung nötig" required></textarea>
 
     <label for="address">Abholadresse</label>
-    <input type="text" id="address" name="address" placeholder="z. B. Glatzer Str. 7, 52078 Aachen">
+    <input type="text" id="address" name="Adresse" placeholder="z. B. Glatzer Str. 7, 52078 Aachen" required>
 
     <label for="time">Bevorzugte Abholzeit</label>
-    <input type="text" id="time" name="time" placeholder="z. B. Dienstag nach 14.00 Uhr">
+    <input type="text" id="time" name="Abholzeit" placeholder="z. B. Dienstag nach 14.00 Uhr">
 
-    <button type="submit">Anfrage senden</button>
+    <button type="submit">📨 Anfrage senden</button>
   </form>
 </section>
+
+<footer>
+  © 2025 Werkstatt KaffeeFix – Aachen
+</footer>
 
 </body>
 </html>
